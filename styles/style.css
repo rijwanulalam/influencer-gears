@@ -108,10 +108,12 @@ main{
     line-height: 60px;
 }
 .featured-product-description{
+    width: 80%;
     font-size: 16px;
     line-height: 28px;
     color: #6C6C6C;
     margin: 10px 0;
+
 }
 .btn{
     color: #ffff;
