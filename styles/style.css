@@ -125,3 +125,34 @@ main{
 .btn>span{
     margin-right: 10px;
 }
+/* footer */
+.footer-container{
+    background-color: #0A0826;
+}
+.footer-infos{
+    text-align: center;
+    padding: 50px;
+
+}
+.footer-title{
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.footer-description{
+    color: #D9DBE1;
+    margin: 5px 0;
+}
+/* .social-links{
+
+    margin: 5px;
+} */
+.social-links>a{
+    text-decoration: none;
+    color: #ffff;
+    margin: 5px;
+}
+.social-link{
+    margin: 5px;
+}
