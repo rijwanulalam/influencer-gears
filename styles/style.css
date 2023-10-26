@@ -14,6 +14,15 @@ main{
     font-family: 'Poppins', sans-serif;
 
 }
+/* header */
+.header-container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.banner-container{
+    display: flex;
+    align-items: center
+}
 
 /* brands logo */
 .brands-container>hr{
