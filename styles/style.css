@@ -20,11 +20,34 @@ main{
     margin: 0 auto;
 }
 .banner-container{
+    padding: 30px;
+    margin-top: 80px;
     display: flex;
+    gap: 130px;
     align-items: center;
-    gap: 100px;
+    justify-content: space-between;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
+.banner-title{
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.banner-description{
+    line-height: 24px;
+    font-weight: 600;
+    margin: 15px 0;
+    color: #3A3A3A;
+    width: 70%;
+}
+/* .banner-image{
+    background-image: url(../images/Circle\ design.svg);
+} */
 /* brands logo */
 .brands-container>hr{
     border-top: 1px solid #C0CCDA99;
