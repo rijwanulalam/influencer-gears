@@ -21,7 +21,8 @@ main{
 }
 .banner-container{
     display: flex;
-    align-items: center
+    align-items: center;
+    gap: 100px;
 }
 
 /* brands logo */
