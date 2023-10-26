@@ -18,6 +18,7 @@ main{
 .header-container{
     max-width: 1250px;
     margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
 }
 .banner-container{
     padding: 30px;
