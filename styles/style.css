@@ -252,6 +252,9 @@ ul li a{
     .brands-container > hr{
         display: none;
     }
+    .collections{
+        grid-template-columns: 1fr;
+    }
     .featured-products{
         flex-direction: column-reverse;
     }
