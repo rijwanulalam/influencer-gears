@@ -216,3 +216,49 @@ ul li a{
 .social-link{
     margin: 5px;
 }
+
+.hide{
+    display: none;
+}
+/* responsive */
+@media screen and (max-width: 576px) {
+    .brands{
+        flex-wrap: wrap;
+    }
+    .brands-container > hr{
+        display: none;
+    }
+    .collections{
+        grid-template-columns: 1fr;
+    }
+    .featured-products{
+        flex-direction: column-reverse;
+    }
+    .featured-product-info{
+        text-align: center;
+    }
+    .featured-product-thumbnail>img{
+        width: 300px;
+        height: 190px;
+    }
+    .featured-product-description{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 978px) {
+    .brands{
+        flex-wrap: wrap;
+    }
+    .brands-container > hr{
+        display: none;
+    }
+    .featured-products{
+        flex-direction: column-reverse;
+    }
+    .featured-product-info{
+        text-align: center;
+    }
+    .featured-product-description{
+        width: 100%;
+    }
+}
