@@ -268,6 +268,28 @@ ul li a{
     }
 }
 @media screen and (min-width: 577px) and (max-width: 950px) {
+    
+    .banner-container {
+        text-align: center;
+        gap: 30px;
+        background-position: top;
+        flex-direction: column-reverse;
+        background-size: 230px;
+    }
+    .banner-title{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .banner-image>img{
+        width: 200px;
+        height: 190px;
+    }
+    .banner-description{
+        line-height: 21px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
     .brands{
         flex-wrap: wrap;
     }
@@ -290,5 +312,14 @@ ul li a{
 @media screen and (min-width: 851px) and (max-width: 1140px){
     .collections{
         grid-template-columns: 1fr 1fr;
+    }
+
+    .banner-image>img{
+        width: 300px;
+        height: 290px;
+    }
+    .banner-container {
+        gap: 100px;
+        background-size: 350px;
     }
 }
