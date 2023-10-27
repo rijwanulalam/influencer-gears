@@ -222,7 +222,20 @@ ul li a{
 }
 /* responsive */
 @media screen and (max-width: 576px) {
-    
+    .nav-container {
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+            font-size: 16px;
+            line-height: 24px;
+    }
+
+    ul {
+        gap: 20px;
+        flex-direction: column;
+    }
 
     .banner-container {
         text-align: center;
@@ -313,7 +326,6 @@ ul li a{
     .collections{
         grid-template-columns: 1fr 1fr;
     }
-
     .banner-image>img{
         width: 300px;
         height: 290px;
