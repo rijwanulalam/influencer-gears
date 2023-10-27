@@ -181,6 +181,7 @@ ul li a{
     padding: 10px 25px;
     border-radius: 7px;
     border: 0;
+    cursor: pointer;
 }
 .btn>span{
     margin-right: 10px;
